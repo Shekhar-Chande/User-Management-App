@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 
-const API_BASE_URL = 'http://localhost:3000/users';
+const API_BASE_URL = 'https://user-management-backend-w3b1.onrender.com/users';
 // User 1 (ADMIN) has 'EDIT' permission
 const AUTH_USER_ID_FOR_EDIT = '1'; 
 
