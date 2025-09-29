@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import CreateUserForm from '../components/createUserForm';
 import EditUserForm from './EditUserForm';
 
-const API_BASE_URL = 'http://localhost:3000/users';
+const API_BASE_URL = 'https://user-management-backend-w3b1.onrender.com/users';
 
 function UserLists() {
     // 💥 Get the dynamic ID from the URL. Assuming the route is something like /users/:userId
