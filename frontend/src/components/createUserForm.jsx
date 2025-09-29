@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const API_BASE_URL = 'http://localhost:3000/users';
+const API_BASE_URL = 'https://user-management-backend-w3b1.onrender.com/users';
 
 function CreateUserForm({ onUserCreated, currentUserId }) { 
     const [name, setName] = useState('');
